@@ -1,0 +1,8 @@
+detect-secrets.json
+.*
+!.env.production.local
+Dockerfile
+.eslintrc.cjs
+.gitlab/*
+.gitlab-ci.yml
+README.md

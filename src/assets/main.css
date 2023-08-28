@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+  @apply bg-neutral-100;
+  @apply text-base;
+  @apply font-normal;
+}
+
+.online {
+  @apply bg-green-600;
+}
+
+.offline {
+  @apply bg-red-600;
+} 
+
+.note-input, .text-input {
+  @apply bg-yellow-100;
+  @apply border-white;
+  @apply rounded;
+  @apply inline-block;
+  @apply w-full;
+  @apply h-32;
+  @apply p-1;
+}
+
+.text-input {
+  @apply bg-white;
+}
+
+.title {
+  @apply w-96;
+  @apply text-xl;
+  @apply text-center;
+  @apply p-10;
+  @apply inline-block;
+}
+
+.input-form, .input-form-small {
+  @apply top-10;
+  @apply rounded;
+  @apply bg-yellow-50;
+  @apply border-white;
+  @apply rounded;
+  @apply block;
+  @apply p-2;
+  @apply m-0;
+}
+
+.input-form-small {
+@apply w-96;
+
+}
+
+.input-field {
+  @apply bg-gray-200;
+  @apply w-full;
+  @apply p-2;
+  @apply my-2;
+  @apply rounded;
+}
+
+.checkbox {
+  @apply w-10;
+  @apply p-2;
+  @apply m-0;
+  @apply inline-block;
+}
+
+.button, .button-disabled, .button-small {
+  @apply rounded;
+  @apply w-full;
+  @apply text-center;
+  @apply bg-gray-400;
+  @apply p-2;
+  @apply my-2;
+  @apply font-bold;
+  @apply inline-block;
+}
+
+.button-small {
+  @apply w-20;
+  @apply m-2;
+}
+
+.button-disabled {
+  @apply bg-gray-100;
+  @apply font-normal;
+  @apply text-gray-400;
+}

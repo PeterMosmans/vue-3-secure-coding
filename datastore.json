@@ -1,0 +1,61 @@
+{
+  "accounts": [
+    {
+      "username": "bob",
+      "password": "1234",
+      "storeNotesLocally": true,
+      "storeNotesRemotely": true,
+      "id": 1,
+      "isAdmin": false,
+      "enterSave": true,
+      "style": "background: #00ff00;"
+    },
+    {
+      "username": "fred",
+      "password": "fred",
+      "storeNotesLocally": true,
+      "storeNotesRemotely": true,
+      "id": 2,
+      "isAdmin": false,
+      "style": ""
+    },
+    {
+      "username": "jamie",
+      "password": "jamie",
+      "storeNotesLocally": true,
+      "storeNotesRemotely": true,
+      "id": 7,
+      "isAdmin": false,
+      "style": "background-color: #ff0000;"
+    },
+    {
+      "username": "administrator",
+      "password": "administrator",
+      "isAdmin": true,
+      "storeNotesLocally": false,
+      "storeNotesRemotely": true,
+      "id": 8,
+      "enterSave": true
+    }
+  ],
+  "notes": [
+    {
+      "note": "This is a note from Jamie",
+      "user_id": 7,
+      "time": "Mon Aug 28 2023",
+      "id": 451094385
+    },
+    {
+      "note": "This is a note from the administrator",
+      "user_id": 8,
+      "time": "Mon Aug 28 2023",
+      "id": 3951510584
+    },
+    {
+      "note": "This is another note from the <b>administrator</b>",
+      "user_id": 8,
+      "time": "Mon Aug 28 2023",
+      "id": 2224359999
+    }
+  ]
+}
