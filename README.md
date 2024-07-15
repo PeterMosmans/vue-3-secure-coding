@@ -20,13 +20,14 @@ your environment (`API_HOST` and `API_PORT` on which IP address and port the API
 server will listen). Then, run
 
 ```bash
-./start-api-server.sh
+./start-api-server.sh &
 ```
 
-When encountering login errors, please ensure that the (development or
-production) web server can access the API endpoint.
+This will start the API server in the background. When encountering login
+errors, please ensure that the (development or production) web server can access
+the API endpoint.
 
-To check that, go to the path `/api/db` of the (development / production) web
+To check that, go to the path `/db` of the (development / production) web
 server: This should output a JSON file containing the data store. If not, then
 double-check whether the API server is running and listening on the specified
 host and port.
